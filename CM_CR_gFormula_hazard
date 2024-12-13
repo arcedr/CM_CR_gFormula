@@ -1,5 +1,5 @@
 
-# Main function to conduct mediation analysis in presence of time-varying mediators, a survival outcome and competing risks
+# Main function to conduct mediation analysis in presence of time-varying mediators, a survival outcome and competing risks in difference in hazards scale
 
 med_longitudinal=function(L=NULL, M, m, Y, treat='logcocr', control.value=a, treat.value=a_star, data, time_points, peryr=100000){
   
